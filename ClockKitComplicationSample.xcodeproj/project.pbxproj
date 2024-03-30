@@ -14,6 +14,7 @@
 		C1C348CE2BB838A70071C0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348CD2BB838A70071C0E5 /* ContentView.swift */; };
 		C1C348D02BB838A90071C0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C348CF2BB838A90071C0E5 /* Assets.xcassets */; };
 		C1C348D62BB838A90071C0E5 /* ClockKitComplicationSampleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1C348C92BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1C348DC2BB83A560071C0E5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348DB2BB83A560071C0E5 /* ComplicationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C1C348CB2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockKitComplicationSampleWatchApp.swift; sourceTree = "<group>"; };
 		C1C348CD2BB838A70071C0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1C348CF2BB838A90071C0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C348DB2BB83A560071C0E5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				C1C348CB2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift */,
 				C1C348CD2BB838A70071C0E5 /* ContentView.swift */,
+				C1C348DB2BB83A560071C0E5 /* ComplicationController.swift */,
 				C1C348CF2BB838A90071C0E5 /* Assets.xcassets */,
 			);
 			path = "ClockKitComplicationSampleWatch Watch App";
@@ -218,6 +221,7 @@
 			files = (
 				C1C348CE2BB838A70071C0E5 /* ContentView.swift in Sources */,
 				C1C348CC2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift in Sources */,
+				C1C348DC2BB83A560071C0E5 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
