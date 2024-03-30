@@ -10,17 +10,56 @@
 		C1C348A22BB7F6450071C0E5 /* ClockKitComplicationSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348A12BB7F6450071C0E5 /* ClockKitComplicationSampleApp.swift */; };
 		C1C348A42BB7F6450071C0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348A32BB7F6450071C0E5 /* ContentView.swift */; };
 		C1C348A62BB7F6460071C0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C348A52BB7F6460071C0E5 /* Assets.xcassets */; };
+		C1C348CC2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348CB2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift */; };
+		C1C348CE2BB838A70071C0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C348CD2BB838A70071C0E5 /* ContentView.swift */; };
+		C1C348D02BB838A90071C0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C348CF2BB838A90071C0E5 /* Assets.xcassets */; };
+		C1C348D62BB838A90071C0E5 /* ClockKitComplicationSampleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1C348C92BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C348D42BB838A90071C0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C348962BB7F6450071C0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C348C82BB838A70071C0E5;
+			remoteInfo = "ClockKitComplicationSampleWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1C348D72BB838A90071C0E5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C1C348D62BB838A90071C0E5 /* ClockKitComplicationSampleWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C1C3489E2BB7F6450071C0E5 /* ClockKitComplicationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockKitComplicationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C348A12BB7F6450071C0E5 /* ClockKitComplicationSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockKitComplicationSampleApp.swift; sourceTree = "<group>"; };
 		C1C348A32BB7F6450071C0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1C348A52BB7F6460071C0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C348C92BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClockKitComplicationSampleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C348CB2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockKitComplicationSampleWatchApp.swift; sourceTree = "<group>"; };
+		C1C348CD2BB838A70071C0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1C348CF2BB838A90071C0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C1C3489B2BB7F6450071C0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C348C62BB838A70071C0E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				C1C348A02BB7F6450071C0E5 /* ClockKitComplicationSample */,
+				C1C348CA2BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App */,
 				C1C3489F2BB7F6450071C0E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				C1C3489E2BB7F6450071C0E5 /* ClockKitComplicationSample.app */,
+				C1C348C92BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +97,16 @@
 			path = ClockKitComplicationSample;
 			sourceTree = "<group>";
 		};
+		C1C348CA2BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C1C348CB2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift */,
+				C1C348CD2BB838A70071C0E5 /* ContentView.swift */,
+				C1C348CF2BB838A90071C0E5 /* Assets.xcassets */,
+			);
+			path = "ClockKitComplicationSampleWatch Watch App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -66,14 +117,33 @@
 				C1C3489A2BB7F6450071C0E5 /* Sources */,
 				C1C3489B2BB7F6450071C0E5 /* Frameworks */,
 				C1C3489C2BB7F6450071C0E5 /* Resources */,
+				C1C348D72BB838A90071C0E5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C348D52BB838A90071C0E5 /* PBXTargetDependency */,
+			);
+			name = ClockKitComplicationSample;
+			productName = ClockKitComplicationSample;
+			productReference = C1C3489E2BB7F6450071C0E5 /* ClockKitComplicationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C348C82BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C348DA2BB838A90071C0E5 /* Build configuration list for PBXNativeTarget "ClockKitComplicationSampleWatch Watch App" */;
+			buildPhases = (
+				C1C348C52BB838A70071C0E5 /* Sources */,
+				C1C348C62BB838A70071C0E5 /* Frameworks */,
+				C1C348C72BB838A70071C0E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ClockKitComplicationSample;
-			productName = ClockKitComplicationSample;
-			productReference = C1C3489E2BB7F6450071C0E5 /* ClockKitComplicationSample.app */;
+			name = "ClockKitComplicationSampleWatch Watch App";
+			productName = "ClockKitComplicationSampleWatch Watch App";
+			productReference = C1C348C92BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -87,6 +157,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					C1C3489D2BB7F6450071C0E5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C1C348C82BB838A70071C0E5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -105,6 +178,7 @@
 			projectRoot = "";
 			targets = (
 				C1C3489D2BB7F6450071C0E5 /* ClockKitComplicationSample */,
+				C1C348C82BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -115,6 +189,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C348A62BB7F6460071C0E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C348C72BB838A70071C0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C348D02BB838A90071C0E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +212,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C348C52BB838A70071C0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C348CE2BB838A70071C0E5 /* ContentView.swift in Sources */,
+				C1C348CC2BB838A70071C0E5 /* ClockKitComplicationSampleWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C348D52BB838A90071C0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C348C82BB838A70071C0E5 /* ClockKitComplicationSampleWatch Watch App */;
+			targetProxy = C1C348D42BB838A90071C0E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C1C348AA2BB7F6460071C0E5 /* Debug */ = {
@@ -255,6 +354,7 @@
 		C1C348AD2BB7F6460071C0E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,6 +385,7 @@
 		C1C348AE2BB7F6460071C0E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +413,66 @@
 			};
 			name = Release;
 		};
+		C1C348D82BB838A90071C0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = A5LBYGCGKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockKitComplicationSampleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.Jager-yoo.ClockKitComplicationSample";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Jager-yoo.ClockKitComplicationSample.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		C1C348D92BB838A90071C0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = A5LBYGCGKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClockKitComplicationSampleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.github.Jager-yoo.ClockKitComplicationSample";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.Jager-yoo.ClockKitComplicationSample.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +490,15 @@
 			buildConfigurations = (
 				C1C348AD2BB7F6460071C0E5 /* Debug */,
 				C1C348AE2BB7F6460071C0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C348DA2BB838A90071C0E5 /* Build configuration list for PBXNativeTarget "ClockKitComplicationSampleWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C348D82BB838A90071C0E5 /* Debug */,
+				C1C348D92BB838A90071C0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
